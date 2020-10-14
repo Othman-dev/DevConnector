@@ -1,5 +1,5 @@
 # MernStack-masterclass
 
-Udemy courses from TraversyMedia about MernStack;
+Udemy course from Traversymedia about MernStack;
 
 Forum with authentification, profiles and posts.
