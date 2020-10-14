@@ -1,0 +1,3 @@
+{
+ "mongoURI": "mongodb+srv://Bot:complexity@mern-masterclass.ufolr.mongodb.net/Mern-Masterclass?retryWrites=true&w=majority"
+}
