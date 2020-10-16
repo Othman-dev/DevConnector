@@ -1,3 +1,6 @@
 {
- "mongoURI": "mongodb+srv://Bot:complexity@mern-masterclass.ufolr.mongodb.net/Mern-Masterclass?retryWrites=true&w=majority"
+ "mongoURI": "mongodb+srv://Bot:complexity@mern-masterclass.ufolr.mongodb.net/Mern-Masterclass?retryWrites=true&w=majority",
+ "jwtSecret": "mySSSecretTTTOken",
+ "githubClientId": "1dc6b7e2c55e51869d62",
+ "githubSecret": "6b633ca5b4f6a27bebdde7e6d403e529b45fce0b"
 }
