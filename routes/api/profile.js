@@ -139,7 +139,7 @@ router.get(
 // @route    DELETE api/profile
 // @desc     Delete profile, user & posts
 // @access   Private
-router.delete('/', auh, async (req, res) => {
+router.delete('/', auth, async (req, res) => {
   try {
     // Remove user posts
     await Post.deleteMany({ user: req.user.id });
@@ -329,4 +329,4 @@ router.get('/github/:username', async (req, res) => {
   }
 });
 
-module.exports = router;t
+module.exports = router;
