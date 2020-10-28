@@ -188,7 +188,7 @@ export const deleteExperience = id => async dispatch => {
 };
 
 // Delete education
-export const deleteEducation = id => async dispatc => {
+export const deleteEducation = id => async dispatch => {
   try {
     const res = await api.delete(`/profile/education/${id}`);
 
@@ -223,4 +223,4 @@ export const deleteAccount = () => async dispatch => {
       });
     }
   }
-};h
+};
